@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    font-size: 62.5%;
+    --only-color: white
+    /* cores e fonte. */
+    
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    /*   */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+
+.bg-home{
+    background-image: url(./images/bg-home.png);
+}
+
+
+a,button,main{
+    color:var(--only-color)
+}
+
+.container{
+    
+    height: calc(100vh - 125px);
+    color: var(--only-color);
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    z-index: -1;
+    position: absolute;
+  
+}
+
+header{
+    padding: 40px 0 40px 72px;
+}
+
+header nav{
+    display: flex;
+    gap: 3.2rem;
+    font-size: 2.4rem;
+    line-height: 2.2rem;
+    max-width: 50rem;
+}
+
+a{
+    text-decoration: none;
+    position: relative;
+}
+
+a#logoForHome{
+    text-decoration: none;
+   
+    width: 48px;
+    height: 40px;
+}
+
+
+main.home{
+    margin-inline: auto;
+    margin-top: 172px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+
+}
+
+h1{
+    font-size: 4.8rem;
+    line-height: 6rem;
+    font-weight: bold;
+    
+}
+
+button{
+    width: 19.5rem;
+    height: 5rem;
+    border: 2px solid white;
+    border-radius: 5px;
+    background: none;
+    cursor: pointer;
+
+    transition: transform 1s;
+}
+
+button:hover{
+    transform: scale(1.2);
+}
+
+
+/* style href O Universo */
+
+.bg-theUniverse{
+    background-image: url(/images/bg-oUniverso.png);
+}
+
+.bg-exploration{
+    background-image: url(/images/bg-exploracao.png);
+}
+
+
+
+main{
+    margin-top: 200px;
+    margin-left: 102px;
+}
+
+main p{
+    line-height: 28px;
+    font-size: 1.8rem;
+    max-width: 65rem;
+    margin-top: 1.6rem;
+}
